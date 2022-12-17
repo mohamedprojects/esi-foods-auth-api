@@ -8,9 +8,11 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
+const allOriginsAllowed = ["*"];
+
 app.use(
   cors({
-    origin: ["*"],
+    origin: allOriginsAllowed,
     methods: ["GET", "POST"],
   })
 );
