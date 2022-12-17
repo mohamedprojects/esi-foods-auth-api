@@ -8,7 +8,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-const allOriginsAllowed = ["*"];
+const allOriginsAllowed = ["http://localhost:5173", "http://localhost:5173/"];
 
 app.use(
   cors({
