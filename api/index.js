@@ -8,7 +8,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-const allOriginsAllowed = ["http://localhost:5173", "http://localhost:5173/"];
+const allOriginsAllowed = ["http://localhost:5173", "http://localhost:5173/","https://esi-foods.vercel.app"];
 
 app.use(
   cors({
