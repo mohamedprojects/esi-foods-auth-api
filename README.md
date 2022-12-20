@@ -1,4 +1,4 @@
-# Jina Express Auth API
+# Express Auth API
 
 ## Register
 
